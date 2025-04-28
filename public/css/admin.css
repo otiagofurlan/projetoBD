@@ -1,0 +1,43 @@
+.back{
+    position: absolute;
+    left: 3em;
+}
+.admin-area{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.table{
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.table tbody tr td, .table thead tr th{
+    border: 1px solid black;
+}
+.table tbody tr .description{
+    padding-left: 1.5em;
+}
+.btn-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+.register-btn{
+    align-self: center;
+    padding: 0.5em 1em;
+    height: 4em;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 500;
+}

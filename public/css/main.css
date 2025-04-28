@@ -1,0 +1,66 @@
+.add-item{
+    position: absolute;
+    left: 3em;
+}
+.back-form{
+    top: 3em;
+}
+.logout-form{
+    top: 3em;
+}
+.logout{
+    position: absolute;
+    right: 3em;
+}
+.logo{
+    margin-top: 3em;
+}
+.logo h1{
+    border-bottom: 1px solid black;
+}
+.slogan{
+    font-size: 20px;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.container{
+    width: 50%;
+}
+.carousel-item{
+    height: 28em;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-title{
+    margin-top: 1em;
+    border-bottom: 1px solid black;
+}
+.menu-options{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 4em;
+}
+.menu-item{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.menu-item .item-title{
+    margin-top: 1em;
+}
+.img-menu{
+    height: 15em;
+    width: 23em;
+}
